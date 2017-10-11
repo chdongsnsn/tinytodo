@@ -1,0 +1,30 @@
+.el-input{
+  margin:20px auto;
+}
+.todo-list{
+  width:100%;
+  margin-top:8px;
+  padding-bottom:8px;
+  border-bottom:1px solid #eee;
+  overflow:hidden;
+  text-align:left;
+
+  .item{
+    font-size:20px;
+    &.finished{
+      text-decoration:line-through;
+      color:#ddd;
+      .iconfont{
+        color: #42b983;
+      }
+    }
+    .iconfont{
+      font-size:18px;
+      color: #FF4949;
+      margin-right:10px;
+    }
+  }
+}
+.pull-right{
+  float:right;
+}
